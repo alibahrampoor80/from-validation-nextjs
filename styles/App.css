@@ -1,0 +1,46 @@
+.App {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+input[type='text'], input[type='password'], input[type='email'],select {
+    width: 400px;
+    padding: 6px 12px;
+    display: block;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+input + label {
+    font-weight: bold;
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    text-align: right;
+    transition: all ease 0.5s;
+}
+
