@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "ali",
+      "email": "ali.bahrampoor1380@gmail.com",
+      "password": "Ali09132605962@",
+      "passwordConfirm": "Ali09132605962@",
+      "phone": "09303149371",
+      "gender": "0",
+      "nationality": "GER",
+      "intersts": [
+        "Next js"
+      ],
+      "terms": true
+    }
+  ]
+}
